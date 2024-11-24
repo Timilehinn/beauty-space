@@ -1,0 +1,45 @@
+/* -------- THE PRELOADER ------ */
+.the_box {
+  height: 100vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100vh / 2;
+  border-radius: 2px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.loader {
+  border: 4px solid white;
+  border-radius: 50%;
+  border-top: 4px solid #4f9ed0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------- THE PRELOADER ------ */

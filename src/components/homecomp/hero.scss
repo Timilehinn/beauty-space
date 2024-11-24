@@ -1,0 +1,20 @@
+#custom {
+  font-size: 14px !important;
+  // margin-left: 8% !important;
+}
+
+#testcase {
+  color: black !important;
+}
+
+/* Add this CSS to your stylesheets */
+.slideshow-image {
+  max-width: 100%;
+  transition: transform 1s ease-in-out; /* Add a smooth transition effect */
+  transform: translateX(0); /* Initial position */
+}
+
+/* Apply this class to animate the slide */
+.slideshow-image.slide {
+  transform: translateX(-100%); /* Slide from right to left */
+}

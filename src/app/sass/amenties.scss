@@ -1,0 +1,29 @@
+.amenty>h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.amenty ul{
+  display: flex;
+  flex-direction:column;
+}
+
+.amenities {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.sec-div {
+  margin-top: 25px;
+}
+
+.amenty_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 10px;
+  margin: 6px 0;
+  cursor: pointer;
+}

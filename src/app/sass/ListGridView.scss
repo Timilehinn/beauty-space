@@ -1,0 +1,18 @@
+.active_view:focus {
+  border: 1px solid #5b585b;
+  border-color: #5b585b;
+  padding: 1px;
+
+  &.left {
+    border-radius: 8px 0px 0px 8px;
+  }
+  &.right {
+    border-radius: 0px 8px 8px 0px;
+  }
+}
+
+.pagination-container {
+  li {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,46 @@
+.bg-f8d8d4 {
+  background-color: #f8d8d4;
+}
+
+.text-ae3122 {
+  color: #ae3122;
+}
+
+.bg-d6f6de {
+  background-color: #d6f6de;
+}
+
+.text-26a746 {
+  color: #26a746;
+}
+
+.layout {
+  background: #f6f6f6;
+  cursor: pointer;
+  @apply rounded-t-lg rounded-b-lg;
+}
+
+.layout .view {
+  background: #fcfcfc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #5b585b;
+}
+
+.layout .view--list {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.layout .view--grid {
+  border-radius: 0px 8px 8px 0px;
+}
+/*# sourceMappingURL=layout.css.map */

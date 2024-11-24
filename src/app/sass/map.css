@@ -1,0 +1,4 @@
+.mapboxgl-popup-close-button {
+  @apply mr-3 text-slate-400 hover:text-slate-800 hover:bg-transparent;
+}
+/*# sourceMappingURL=map.css.map */

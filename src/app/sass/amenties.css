@@ -1,0 +1,46 @@
+.amenty > h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.amenty ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.amenities {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sec-div {
+  margin-top: 25px;
+}
+
+.amenty_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=amenties.css.map */

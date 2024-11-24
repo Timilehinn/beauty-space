@@ -1,0 +1,35 @@
+.bg-f8d8d4 {
+  background-color: #f8d8d4;
+}
+.text-ae3122 {
+  color: #ae3122;
+}
+.bg-d6f6de {
+  background-color: #d6f6de;
+}
+.text-26a746 {
+  color: #26a746;
+}
+
+.layout {
+  background: #f6f6f6;
+  cursor: pointer;
+  @apply rounded-t-lg rounded-b-lg;
+
+  .view {
+    background: #fcfcfc;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5b585b;
+
+    &--list {
+      border-radius: 8px 0px 0px 8px;
+    }
+
+    &--grid {
+      border-radius: 0px 8px 8px 0px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.view-layout {
+  .list-view {
+    &--inner {
+      @apply flex md:w-[55%];
+    }
+
+    img {
+      @apply w-full;
+    }
+
+    &__left {
+      flex: 1;
+    }
+  }
+
+  .grid-view {
+    img {
+      @apply w-full;
+    }
+
+    &--inner {
+      @apply flex flex-col w-full;
+    }
+
+    &__right {
+      flex: 1;
+    }
+  }
+}

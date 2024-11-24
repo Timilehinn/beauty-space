@@ -1,0 +1,36 @@
+.people_map {
+  height: 360px;
+}
+
+.activities::after:not(:last-child) {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 100px;
+  top: 35px;
+  left: 15px;
+  border-left: 1px solid #e3e3e3;
+  z-index: -2;
+}
+
+.owner_activity {
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #eae8e8;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(70, 67, 67);
+    border-radius: 10px;
+  }
+}
+
+@media screen, (min-width: 360px) and (max-width: 768px) {
+  .people_underline::after {
+    content: none;
+  }
+}

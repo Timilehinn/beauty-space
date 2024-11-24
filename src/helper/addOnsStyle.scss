@@ -1,0 +1,27 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    visibility: hidden;
+}
+.right-svg-swipe{
+    height: 34px !important;
+    width: 34px !important;
+    &:hover{
+        fill: white;
+    }
+}
+.left-svg-swipe{
+    height: 34px !important;
+    width: 34px !important;
+    &:hover{
+        fill: white;
+    }
+}

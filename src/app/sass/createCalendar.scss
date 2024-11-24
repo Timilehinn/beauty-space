@@ -1,0 +1,23 @@
+.fc-header-toolbar {
+  margin: 5% 0;
+
+  .fc-toolbar-chunk {
+    .fc-prev-button,
+    .fc-next-button {
+      background-color: transparent;
+      color: black;
+      border: none;
+
+      &:focus-visible {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+
+td.fc-daygrid-day.fc-day.fc-day-today {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}

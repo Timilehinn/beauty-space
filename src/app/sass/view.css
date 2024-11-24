@@ -1,0 +1,28 @@
+.view-layout .list-view--inner {
+  @apply flex md:w-[55%];
+}
+
+.view-layout .list-view img {
+  @apply w-full;
+}
+
+.view-layout .list-view__left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.view-layout .grid-view img {
+  @apply w-full;
+}
+
+.view-layout .grid-view--inner {
+  @apply flex flex-col w-full;
+}
+
+.view-layout .grid-view__right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*# sourceMappingURL=view.css.map */

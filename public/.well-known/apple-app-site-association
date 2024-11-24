@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "6U97JJUG7C.com.tryspacely.tryspacely",
+        "paths": ["/booking/*"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["6U97JJUG7C.com.tryspacely.tryspacely"]
+  },
+  "webcredentials": {
+    "apps": ["6U97JJUG7C.com.tryspacely.tryspacely"]
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tryspacely.tryspacely",
+      "sha256_cert_fingerprints":
+        ["28:E7:62:73:08:0E:BE:27:3C:D6:47:0E:AC:20:DC:FB:33:96:21:EC:06:E7:70:6A:C6:B2:43:9D:2E:84:34:00"]
+    }
+  }
+]

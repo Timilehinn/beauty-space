@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEE,QAFM,CAEN,KAAK,CAAC;EACJ,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,sBAAsB,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,sBAAsB;CACpF",
+    "sources": [
+        "payment.scss"
+    ],
+    "names": [],
+    "file": "payment.css"
+}
